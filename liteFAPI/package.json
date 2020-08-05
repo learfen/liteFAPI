@@ -1,0 +1,22 @@
+{
+  "name": "litefapi",
+  "version": "1.0.0",
+  "description": "Pequeño generador de rutas automatico apartir de una estructura de directorios para express -- Small automatic route generator from a directory structure for express ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": [
+    "notas",
+    "docente"
+  ],
+  "author": "Learfen <danielgarcia.clases@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7"
+  }
+}
