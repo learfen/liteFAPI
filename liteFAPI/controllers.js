@@ -12,7 +12,7 @@
                 stock-update.js
                 stock.js
             books.js
-    
+
     Las rutas que se crearan son
 
     /students/all
@@ -26,8 +26,7 @@
     action-method.js como el ejemplo stock dentro de books
 */
 const fs = require("fs"), path = require("path");
-module.exports = (app , config) =>{
-        config = config == undefined ? {} : config
+module.exports = (app , config = {}) => {
         const urls = new Set
         var dirsEntity = []
         var actions = []
